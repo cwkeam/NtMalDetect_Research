@@ -1,0 +1,556 @@
+Process 3968 starting at 00F24FD0
+C:\Windows\SysWOW64\cmd.exe
+Loaded DLL at 76F20000 null
+Unload of DLL at 00E00000
+Unload of DLL at 75570000
+Unload of DLL at 00E00000
+Unload of DLL at 04F70000
+NtQueryPerformanceCounter( Counter=0xbcf6c8 [1.45779e+009], Freq=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf6f4 [0x7702e000], Size=0xbcf6f8 [0x1000], NewProtect=4, OldProtect=0xbcf6fc [8] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf6f4 [0x7702e000], Size=0xbcf6f8 [0x1000], NewProtect=8, OldProtect=0xbcf6fc [4] ) => 0
+NtQuerySystemInformation( SystemInformationClass=0 [SystemBasicInformation], SystemInformation=0xbcf6a8, Length=0x2c, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x76f20000, MemoryInformationClass=6, MemoryInformation=0xbcf440, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=null, MemoryInformationClass=4, MemoryInformation=0xbcf474, Length=0x28, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf480 [0x7702c000], Size=0xbcf484 [0x3000], NewProtect=2, OldProtect=0xbcf488 [4] ) => 0
+NtOpenKey( KeyHandle=0xbcf23c [0x24], DesiredAccess=0x9, ObjectAttributes="\Registry\Machine\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" ) => 0
+NtOpenKey( KeyHandle=0xbcf2d8, DesiredAccess=0x9, ObjectAttributes=0x24:"cmd.exe" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtOpenKey( KeyHandle=0xbcf258, DesiredAccess=0x1, ObjectAttributes="\Registry\Machine\SYSTEM\CurrentControlSet\Control\Session Manager\Segment Heap" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQuerySecurityAttributesToken( TokenHandle=-4, Attributes="WIN://SYSAPPID", NumberOfAttributes=2, Buffer=0xbcf090, Length=0x260, ReturnLength=0xbcf058 ) => 0xc0000225 [1168 'Element not found.']
+NtQuerySecurityAttributesToken( TokenHandle=-4, Attributes="WIN://SYSAPPID", NumberOfAttributes=1, Buffer=0xbcf090, Length=0x260, ReturnLength=0xbcf058 ) => 0xc0000225 [1168 'Element not found.']
+NtQuerySystemInformation( SystemInformationClass=0 [SystemBasicInformation], SystemInformation=0xbcf450, Length=0x2c, ReturnLength=null ) => 0
+NtQuerySystemInformation( SystemInformationClass=0 [SystemBasicInformation], SystemInformation=0xbcf440, Length=0x2c, ReturnLength=null ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbcf278 [0x00e00000], ZeroBits=0, pSize=0xbcf270 [0x00110000], flAllocationType=0x2000, flProtect=4 ) => 0
+NtFreeVirtualMemory( ProcessHandle=-1, lpAddress=0xbcf278 [0x00e00000], pSize=0xbcf27c [0x00010000], flFreeType=0x8000 ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbcf28c [0x00e10000], ZeroBits=0, pSize=0xbcf290 [0x1000], flAllocationType=0x1000, flProtect=4 ) => 0
+NtQuerySystemInformation( SystemInformationClass=0x37 [SystemNumaProcessorMap], SystemInformation=0xbcf090, Length=0x408, ReturnLength=0xbcf49c [0x14] ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbcf058 [0x00e11000], ZeroBits=0, pSize=0xbcf090 [0x1000], flAllocationType=0x1000, flProtect=4 ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbcf060 [0x00e12000], ZeroBits=0, pSize=0xbcf098 [0x2000], flAllocationType=0x1000, flProtect=4 ) => 0
+NtFreeVirtualMemory( ProcessHandle=-1, lpAddress=0xbcf49c [0x00a60000], pSize=0xbcf498 [0x2000], flFreeType=0x8000 ) => 0
+NtOpenDirectoryObject( DirectoryHandle=0x7702a858 [0x38], DesiredAccess=0x3, ObjectAttributes="\KnownDlls32" ) => 0
+NtOpenSymbolicLinkObject( LinkHandle=0xbcf59c [0x3c], DesiredAccess=0x1, ObjectAttributes=0x38:"KnownDllPath" ) => 0
+NtQuerySymbolicLinkObject( LinkHandle=0x3c, LinkTarget="C:\Windows\syswow64", ReturnedLength=0xbcf5b8 [0x26] ) => 0
+NtClose( Handle=0x3c ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf46c [0x7702c000], Size=0xbcf470 [0x1000], NewProtect=4, OldProtect=0xbcf468 [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf46c [0x7702c000], Size=0xbcf470 [0x1000], NewProtect=2, OldProtect=0xbcf468 [4] ) => 0
+NtCreateEvent( EventHandle=0x7702aaa4 [0x3c], DesiredAccess=DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER|SYNCHRONIZE|0x3, ObjectAttributes=null, EventType=1 [SynchronizationEvent], InitialState=false ) => 0
+NtCreateEvent( EventHandle=0x7702aaa8 [0x40], DesiredAccess=DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER|SYNCHRONIZE|0x3, ObjectAttributes=null, EventType=1 [SynchronizationEvent], InitialState=false ) => 0
+NtQueryPerformanceCounter( Counter=0xbcf430 [1.45783e+009], Freq=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf46c [0x00f55000], Size=0xbcf470 [0x1000], NewProtect=2, OldProtect=0xbcf468 [4] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf46c [0x00f52000], Size=0xbcf470 [0x1000], NewProtect=4, OldProtect=0xbcf468 [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf46c [0x00f52000], Size=0xbcf470 [0x1000], NewProtect=2, OldProtect=0xbcf468 [4] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf438 [0x7702c000], Size=0xbcf43c [0x3000], NewProtect=4, OldProtect=0xbcf440 [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf438 [0x7702c000], Size=0xbcf43c [0x3000], NewProtect=2, OldProtect=0xbcf440 [4] ) => 0
+NtOpenFile( FileHandle=0xbcf47c [0x34], DesiredAccess=SYNCHRONIZE|0x20, ObjectAttributes="\??\C:\Users\chanw\Desktop\work\NtTrace\", IoStatusBlock=0xbcf468 [0/1], ShareAccess=3, OpenOptions=0x21 ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x34, IoStatusBlock=0xbcf468 [0/8], FsInformation=0xbcf460, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+NtSetEvent( EventHandle=0x3c, PrevState=null ) => 0
+NtOpenSection( SectionHandle=0xbcf238 [0x44], DesiredAccess=0xf, ObjectAttributes=0x38:"KERNEL32.DLL" ) => 0
+Loaded DLL at 75570000 C:\Windows\SysWOW64\KERNEL32.DLL
+NtMapViewOfSection( SectionHandle=0x44, ProcessHandle=-1, BaseAddress=0xe12798 [0x75570000], ZeroBits=0, CommitSize=0, SectionOffset=null, ViewSize=0xbcf1e4 [0x000e0000], InheritDisposition=1 [ViewShare], AllocationType=0x00800000, Protect=4 ) => 0
+NtQueryPerformanceCounter( Counter=0xbcf190 [1.45784e+009], Freq=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf1cc [0x755f1000], Size=0xbcf1d0 [0x1000], NewProtect=4, OldProtect=0xbcf1c8 [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf1cc [0x755f1000], Size=0xbcf1d0 [0x1000], NewProtect=2, OldProtect=0xbcf1c8 [4] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf198 [0x7702c000], Size=0xbcf19c [0x3000], NewProtect=4, OldProtect=0xbcf1a0 [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf198 [0x7702c000], Size=0xbcf19c [0x3000], NewProtect=2, OldProtect=0xbcf1a0 [4] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf1b0 [0x755f0000], Size=0xbcf1b4 [0x2000], NewProtect=4, OldProtect=0xe1273c [2] ) => 0
+NtOpenSection( SectionHandle=0xbcee90 [0x48], DesiredAccess=0xf, ObjectAttributes=0x38:"KERNELBASE.dll" ) => 0
+Loaded DLL at 74870000 C:\Windows\SysWOW64\KERNELBASE.dll
+NtMapViewOfSection( SectionHandle=0x48, ProcessHandle=-1, BaseAddress=0xe12ac8 [0x74870000], ZeroBits=0, CommitSize=0, SectionOffset=null, ViewSize=0xbcee3c [0x0017e000], InheritDisposition=1 [ViewShare], AllocationType=0x00800000, Protect=4 ) => 0
+NtQueryPerformanceCounter( Counter=0xbcede8 [1.45785e+009], Freq=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcee24 [0x749d0000], Size=0xbcee28 [0x1000], NewProtect=2, OldProtect=0xbcee20 [4] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcee24 [0x749ca000], Size=0xbcee28 [0x1000], NewProtect=4, OldProtect=0xbcee20 [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcee24 [0x749ca000], Size=0xbcee28 [0x1000], NewProtect=2, OldProtect=0xbcee20 [4] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcedf0 [0x7702c000], Size=0xbcedf4 [0x3000], NewProtect=4, OldProtect=0xbcedf8 [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcedf0 [0x7702c000], Size=0xbcedf4 [0x3000], NewProtect=2, OldProtect=0xbcedf8 [4] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcee08 [0x749ca000], Size=0xbcee0c [0x1000], NewProtect=4, OldProtect=0xe12a6c [2] ) => 0
+NtClose( Handle=0x48 ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf108, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xe12728 [0x755f0000], Size=0xe1272c [0x2000], NewProtect=2, OldProtect=0xbcf130 [4] ) => 0
+NtClose( Handle=0x44 ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf158, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xe12a58 [0x749ca000], Size=0xe12a5c [0x1000], NewProtect=2, OldProtect=0xbcf17c [4] ) => 0
+NtApphelpCacheControl( ServiceClass=6, ServiceData="" ) => 0
+NtApphelpCacheControl( ServiceClass=6, ServiceData="" ) => 0
+NtQuerySystemInformation( SystemInformationClass=0x32 [SystemRangeStartInformation], SystemInformation=0xbceec4, Length=4, ReturnLength=null ) => 0
+NtQuerySystemInformation( SystemInformationClass=0 [SystemBasicInformation], SystemInformation=0x749c76c0, Length=0x2c, ReturnLength=null ) => 0
+NtWow64CsrClientConnectToServer( ObjectDirectory=0xbceef8, ServerId=1, ConnectionInfo=0xbceedc, ConnectionInfoSize=0x8 [0], ServerToServerCall=0xbceeb3 [0xbcf0fc00] ) => 0
+NtInitializeNlsFiles( BaseAddress=0xbceeb0 [0x04f70000], DefaultLocaleId=0x749c879c [0x409], DefaultCasingTableSize=0xbceea8 [10672] ) => 0
+NtCreateFile( FileHandle=0xbceea8 [0x44], DesiredAccess=READ_CONTROL|SYNCHRONIZE|0x19f, ObjectAttributes=4:"\Connect", IoStatusBlock=0xbce8f8 [0/0x18], AllocationSize=null, FileAttributes=0, ShareAccess=7, CreateDisposition=2, CreateOptions=0x20, EaBuffer=0xe13158, EaLength=0x54b ) => 0
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcee78 [0/0], IoControlCode=0x00500023, InputBuffer=null, InputBufferLength=0, OutputBuffer=0xbcee80, OutputBufferLength=8 ) => 0
+NtSetInformationProcess( ProcessHandle=-1, ProcessInformationClass=0x31 [ProcessConsoleHostProcess], ProcessInformation=0xbcee88, Length=4 ) => 0
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbced38, IoControlCode=0x00500016, InputBuffer=0xbced40, InputBufferLength=0x30, OutputBuffer=null, OutputBufferLength=0 ) => 0xc00000bb [50 'The request is not supported.']
+NtCreateEvent( EventHandle=0xbcef94 [0x48], DesiredAccess=DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER|SYNCHRONIZE|0x3, ObjectAttributes=null, EventType=1 [SynchronizationEvent], InitialState=false ) => 0
+NtQuerySystemInformationEx( SystemInformationClass=0x6b, QueryType=0xbced78 [1], Alignment=4, SystemInformation=0xe13530, Length=0x4c, ReturnLength=0xbced7c [0x2c] ) => 0
+NtCreateIoCompletion( IoHandle=0xe13398 [0x54], DesiredAccess=DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER|SYNCHRONIZE|0x3, ObjectAttributes=null, NumberOfConcurrentThreads=4 ) => 0
+NtCreateWorkerFactory( WorkerFactoryHandleReturn=0xe13394 [0x58], DesiredAccess=DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER|0xff, ObjectAttributes=null, CompletionPortHandle=0x54, WorkerProcessHandle=-1, StartRoutine=0x76f4c6e0, StartParameter=0xe13370, MaxThreadCount=0x200, StackReserve=0x00100000, StackCommit=0x000fd000 ) => 0
+NtSetInformationWorkerFactory( WorkerFactoryHandle=0x58, InformationClass=5 [WorkerFactoryThreadMaximum], Buffer=0xbcee48, BufferLength=4 ) => 0
+NtSetInformationWorkerFactory( WorkerFactoryHandle=0x58, InformationClass=0xe, Buffer=0xbcee48, BufferLength=4 ) => 0
+NtSetInformationWorkerFactory( WorkerFactoryHandle=0x58, InformationClass=3 [WorkerFactoryBindingCount], Buffer=0xbcef30, BufferLength=4 ) => 0
+NtTraceControl( CtrlCode=0x1b, InputBuffer=0xbcef8c, InputBufferLength=4, OutputBuffer=null, OutputBufferLength=0, ReturnLength=0xbcef88 [0] ) => 0
+NtTraceControl( CtrlCode=0xf, InputBuffer=0xbceff8, InputBufferLength=0xa0, OutputBuffer=0xbceff8, OutputBufferLength=0xa0, ReturnLength=0xbcefec [0xa0] ) => 0
+NtTraceControl( CtrlCode=0x1e, InputBuffer=0xbcf098, InputBufferLength=0x18, OutputBuffer=0xbcf020, OutputBufferLength=0x78, ReturnLength=0xbcf01c [0x78] ) => 0
+NtQuerySystemInformation( SystemInformationClass=0 [SystemBasicInformation], SystemInformation=0x756206e0, Length=0x2c, ReturnLength=null ) => 0
+NtOpenKey( KeyHandle=0xbceecc, DesiredAccess=0x9, ObjectAttributes=0x24:"cmd.exe" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtSetEvent( EventHandle=0x3c, PrevState=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf2a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf2a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf2a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf0f8, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=4, OldProtect=0xbcf14c [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=2, OldProtect=0xbcf14c [4] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf0f8, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=4, OldProtect=0xbcf14c [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=2, OldProtect=0xbcf14c [4] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf0f8, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=4, OldProtect=0xbcf14c [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=2, OldProtect=0xbcf14c [4] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf0f8, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=4, OldProtect=0xbcf14c [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=2, OldProtect=0xbcf14c [4] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf0f8, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=4, OldProtect=0xbcf14c [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=2, OldProtect=0xbcf14c [4] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf0f8, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=4, OldProtect=0xbcf14c [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=2, OldProtect=0xbcf14c [4] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf0f8, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=4, OldProtect=0xbcf14c [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=2, OldProtect=0xbcf14c [4] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf0f8, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=4, OldProtect=0xbcf14c [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=2, OldProtect=0xbcf14c [4] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf0f8, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=4, OldProtect=0xbcf14c [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=2, OldProtect=0xbcf14c [4] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf0f8, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=4, OldProtect=0xbcf14c [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=2, OldProtect=0xbcf14c [4] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf0f8, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=4, OldProtect=0xbcf14c [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf150 [0x749d0000], Size=0xbcf154 [0x1000], NewProtect=2, OldProtect=0xbcf14c [4] ) => 0
+NtOpenKey( KeyHandle=0xbcf3a8, DesiredAccess=0x3, ObjectAttributes="\Registry\MACHINE\System\CurrentControlSet\Control\SafeBoot\Option" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtOpenKey( KeyHandle=0xbcf3b4, DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\Srp\GP\DLL" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtOpenKey( KeyHandle=0xbcf3c0 [0x70], DesiredAccess=0x1, ObjectAttributes="\Registry\Machine\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers" ) => 0
+NtQueryValueKey( KeyHandle=0x70, ValueName="TransparentEnabled", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbcf448, Length=0x50, ResultLength=0xbcf3b8 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtClose( Handle=0x70 ) => 0
+NtQueryInformationToken( TokenHandle=-6, TokenInformationClass=1 [TokenUser], TokenInformation=0xbcf310, Length=0x50, ReturnLength=0xbcf300 [0x24] ) => 0
+NtOpenKey( KeyHandle=0xbcf3c0, DesiredAccess=0x1, ObjectAttributes="\REGISTRY\USER\S-1-5-21-720861507-2062261010-4051649343-1001\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtSetInformationProcess( ProcessHandle=-1, ProcessInformationClass=0x22 [ProcessExecuteFlags], ProcessInformation=0xbcf624, Length=4 ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf450 [0x00f52000], Size=0xbcf454 [0x1000], NewProtect=4, OldProtect=0xbcf558 [2] ) => 0
+NtOpenSection( SectionHandle=0xbcf130 [0x70], DesiredAccess=0xf, ObjectAttributes=0x38:"msvcrt.dll" ) => 0
+Loaded DLL at 745B0000 C:\Windows\SysWOW64\msvcrt.dll
+NtMapViewOfSection( SectionHandle=0x70, ProcessHandle=-1, BaseAddress=0xe13548 [0x745b0000], ZeroBits=0, CommitSize=0, SectionOffset=null, ViewSize=0xbcf0dc [0x000be000], InheritDisposition=1 [ViewShare], AllocationType=0x00800000, Protect=4 ) => 0
+NtQueryPerformanceCounter( Counter=0xbcf088 [1.45799e+009], Freq=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf0c4 [0x74667000], Size=0xbcf0c8 [0x1000], NewProtect=4, OldProtect=0xbcf0c0 [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf0c4 [0x74667000], Size=0xbcf0c8 [0x1000], NewProtect=2, OldProtect=0xbcf0c0 [4] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf090 [0x7702c000], Size=0xbcf094 [0x3000], NewProtect=4, OldProtect=0xbcf098 [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf090 [0x7702c000], Size=0xbcf094 [0x3000], NewProtect=2, OldProtect=0xbcf098 [4] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf0a8 [0x74667000], Size=0xbcf0ac [0x1000], NewProtect=4, OldProtect=0xe12a6c [2] ) => 0
+NtClose( Handle=0x70 ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x745b0000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf330, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf330, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf330, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf3a8, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf544 [0x00f52000], Size=0xbcf548 [0x1000], NewProtect=2, OldProtect=0xbcf3d0 [4] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x75570000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x74870000, MemoryInformationClass=6, MemoryInformation=0xbcf380, Length=0xc, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xe12a58 [0x74667000], Size=0xe12a5c [0x1000], NewProtect=2, OldProtect=0xbcf3a4 [4] ) => 0
+NtApphelpCacheControl( ServiceClass=6, ServiceData="" ) => 0
+NtApphelpCacheControl( ServiceClass=6, ServiceData="" ) => 0
+NtQueryInformationThread( ThreadHandle=-2, ThreadInformationClass=0x11 [ThreadHideFromDebugger], ThreadInformation=0xbcf487, Length=1, ReturnLength=null ) => 0
+Breakpoint at 76FCCD7C
+NtSetEvent( EventHandle=0x3c, PrevState=null ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbcefb8 [0x05120000], ZeroBits=0, pSize=0xbcefb0 [0x00150000], flAllocationType=0x2000, flProtect=4 ) => 0
+NtFreeVirtualMemory( ProcessHandle=-1, lpAddress=0xbcefb8 [0x05120000], pSize=0xbcefbc [0x00140000], flFreeType=0x8000 ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbcefcc [0x05260000], ZeroBits=0, pSize=0xbcefd0 [0x1000], flAllocationType=0x1000, flProtect=4 ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x28, IoStatusBlock=0xbcf2dc [0/8], FsInformation=0xbcf2e4, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x2c, IoStatusBlock=0xbcf2dc [0/8], FsInformation=0xbcf2e4, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x30, IoStatusBlock=0xbcf2dc [0/8], FsInformation=0xbcf2e4, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbcef10 [0x00e14000], ZeroBits=0, pSize=0xbcef48 [0x1000], flAllocationType=0x1000, flProtect=4 ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbceee8 [0x05261000], ZeroBits=0, pSize=0xbcef20 [0x1000], flAllocationType=0x1000, flProtect=4 ) => 0
+NtOpenKey( KeyHandle=0xbce794 [0x70], DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\Nls\Sorting\Versions" ) => 0
+NtQueryValueKey( KeyHandle=0x70, ValueName="", KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbce7c0, Length=0x214, ResultLength=0xbce784 [0x2a] ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbceea8 [0x05262000], ZeroBits=0, pSize=0xbceee0 [0x1000], flAllocationType=0x1000, flProtect=4 ) => 0
+NtSetEvent( EventHandle=0x3c, PrevState=null ) => 0
+NtTestAlert( ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0xf25200, MemoryInformationClass=0 [MemoryBasicInformation], MemoryInformation=0xbcf6f0, Length=0x1c, ReturnLength=0xbcf6cc [0x1c] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0xf25200, MemoryInformationClass=3, MemoryInformation=0xbcf70c, Length=0x14, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0xf25200, MemoryInformationClass=2, MemoryInformation=0xbcf744, Length=0x212, ReturnLength=null ) => 0
+NtOpenThread( ThreadHandle=0xbcf91c [0x74], DesiredAccess=DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER|SYNCHRONIZE|0xffff, ObjectAttributes=null, ClientId=0xbcf914 [0/0xf50] ) => 0
+NtQueryLicenseValue( Name="WindowsExcludedProcs", Type=0xbcf5d8, Buffer=null, Length=0, ReturnedLength=0xbcf5f0 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryLicenseValue( Name="WindowsExcludedProcs", Type=0xbcf5d8, Buffer=null, Length=0x40000068, ReturnedLength=0xbcf5f0 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryLicenseValue( Name="Kernel-MUI-Number-Allowed", Type=0xbcf5d8, Buffer=null, Length=0, ReturnedLength=0xbcf5f0 ) => 0xc0000023 [122 'The data area passed to a system call is too small.']
+NtQueryLicenseValue( Name="Kernel-MUI-Number-Allowed", Type=0xbcf5d8 [4], Buffer=0xe12c10, Length=4, ReturnedLength=0xbcf5f0 [4] ) => 0
+NtQueryLicenseValue( Name="Kernel-MUI-Language-Allowed", Type=0xbcf5d8, Buffer=null, Length=0, ReturnedLength=0xbcf5f0 ) => 0xc0000023 [122 'The data area passed to a system call is too small.']
+NtQueryLicenseValue( Name="Kernel-MUI-Language-Allowed", Type=0xbcf5d8 [1], Buffer=0xe12748, Length=0xc, ReturnedLength=0xbcf5f0 [0xc] ) => 0
+NtOpenKey( KeyHandle=0xbcf3d4 [0x78], DesiredAccess=0x1, ObjectAttributes="\Registry\MACHINE\SYSTEM\CurrentControlSet\Control\Nls\CustomLocale" ) => 0
+NtQueryValueKey( KeyHandle=0x78, ValueName="EMPTY", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbcf400, Length=0x78, ResultLength=0xbcf3fc ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryLicenseValue( Name="Kernel-MUI-Language-Disallowed", Type=0xbcf5d8, Buffer=null, Length=0, ReturnedLength=0xbcf5f0 ) => 0xc0000023 [122 'The data area passed to a system call is too small.']
+NtQueryLicenseValue( Name="Kernel-MUI-Language-Disallowed", Type=0xbcf5d8 [1], Buffer=0xe135e8, Length=0xc, ReturnedLength=0xbcf5f0 [0xc] ) => 0
+NtQueryValueKey( KeyHandle=0x78, ValueName="EMPTY", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbcf400, Length=0x78, ResultLength=0xbcf3fc ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryLicenseValue( Name="Kernel-MUI-Language-SKU", Type=0xbcf5d8, Buffer=null, Length=0, ReturnedLength=0xbcf5f0 ) => 0xc0000023 [122 'The data area passed to a system call is too small.']
+NtQueryLicenseValue( Name="Kernel-MUI-Language-SKU", Type=0xbcf5d8 [1], Buffer=0xe140e8, Length=0x302, ReturnedLength=0xbcf5f0 [0x302] ) => 0
+NtIsUILanguageComitted( ) => 0
+NtQueryInstallUILanguage( LanguageId=0xe12a24 [0x409] ) => 0
+NtOpenKey( KeyHandle=0xbcf31c [0x7c], DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\NLS\Language" ) => 0
+NtQueryValueKey( KeyHandle=0x7c, ValueName="InstallLanguageFallback", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xe135e8, Length=0x10, ResultLength=0xbcf2ec ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtClose( Handle=0x7c ) => 0
+NtOpenKey( KeyHandle=0xbcf3b8 [0x7c], DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\MUI\UILanguages" ) => 0
+NtEnumerateKey( KeyHandle=0x7c, Index=0, KeyInformationClass=0 [KeyBasicInformation], KeyInformation=0xbcf3c0, Length=0x200, ResultLength=0xbcf388 [0x1a] ) => 0
+NtOpenKey( KeyHandle=0xbcf3bc [0x80], DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"en-US" ) => 0
+NtQueryValueKey( KeyHandle=0x80, ValueName="Type", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xe135e8, Length=0x10, ResultLength=0xbcf33c [0x10] ) => 0
+NtQueryValueKey( KeyHandle=0x80, ValueName="AlternateCodePage", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xe135e8, Length=0xc, ResultLength=0xbcf2bc ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtClose( Handle=0x80 ) => 0
+NtEnumerateKey( KeyHandle=0x7c, Index=1, KeyInformationClass=0 [KeyBasicInformation], KeyInformation=0xbcf3c0, Length=0x200, ResultLength=0xbcf388 [0x1a] ) => 0
+NtOpenKey( KeyHandle=0xbcf3bc [0x80], DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"ru-RU" ) => 0
+NtQueryValueKey( KeyHandle=0x80, ValueName="Type", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xe135e8, Length=0x10, ResultLength=0xbcf33c [0x10] ) => 0
+NtQueryValueKey( KeyHandle=0x80, ValueName="DefaultFallback", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xe14170, Length=0xb6, ResultLength=0xbcee1c [0x18] ) => 0
+NtQueryValueKey( KeyHandle=0x80, ValueName="en-US", KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcef60, Length=0x200, ResultLength=0xbcee9c [0x24] ) => 0
+NtEnumerateValueKey( KeyHandle=0x80, Index=0, KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcef60, Length=0x200, ResultLength=0xbcee60 [0x44] ) => 0
+NtEnumerateValueKey( KeyHandle=0x80, Index=1, KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcef60, Length=0x200, ResultLength=0xbcee60 [0x24] ) => 0
+NtEnumerateValueKey( KeyHandle=0x80, Index=2, KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcef60, Length=0x200, ResultLength=0xbcee60 [0x24] ) => 0
+NtEnumerateValueKey( KeyHandle=0x80, Index=3, KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcef60, Length=0x200, ResultLength=0xbcee60 [0x24] ) => 0
+NtEnumerateValueKey( KeyHandle=0x80, Index=4, KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcef60, Length=0x200, ResultLength=0xbcee60 ) => 0x8000001a [259 'No more data is available.']
+NtQueryValueKey( KeyHandle=0x80, ValueName="AlternateCodePage", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xe135e8, Length=0xc, ResultLength=0xbcf2bc ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtClose( Handle=0x80 ) => 0
+NtEnumerateKey( KeyHandle=0x7c, Index=2, KeyInformationClass=0 [KeyBasicInformation], KeyInformation=0xbcf3c0, Length=0x200, ResultLength=0xbcf388 ) => 0x8000001a [259 'No more data is available.']
+NtClose( Handle=0x7c ) => 0
+NtIsUILanguageComitted( ) => 0
+NtOpenKey( KeyHandle=0xbcf01c, DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\MUI\UILanguages\PendingDelete" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtOpenKey( KeyHandle=0xbcf5c0, DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\Software\Policies\Microsoft\MUI\Settings" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryInformationToken( TokenHandle=-6, TokenInformationClass=1 [TokenUser], TokenInformation=0xbcf4e8, Length=0x50, ReturnLength=0xbcf4d8 [0x24] ) => 0
+NtOpenKey( KeyHandle=0xbcf5c4 [0x7c], DesiredAccess=MAXIMUM_ALLOWED, ObjectAttributes="\REGISTRY\USER\S-1-5-21-720861507-2062261010-4051649343-1001" ) => 0
+NtOpenKey( KeyHandle=0xbcf5c0, DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"Control Panel\Desktop\MuiCached\MachineLanguageConfiguration" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtOpenKey( KeyHandle=0xbcf5c0 [0x80], DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\MUI\Settings\LanguageConfiguration" ) => 0
+NtEnumerateValueKey( KeyHandle=0x80, Index=0, KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcf360, Length=0x200, ResultLength=0xbcf328 ) => 0x8000001a [259 'No more data is available.']
+NtClose( Handle=0x80 ) => 0
+NtClose( Handle=0x7c ) => 0
+NtOpenKey( KeyHandle=0xbcf5c0, DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\Software\Policies\Microsoft\MUI\Settings" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryInformationToken( TokenHandle=-6, TokenInformationClass=1 [TokenUser], TokenInformation=0xbcf4e8, Length=0x50, ReturnLength=0xbcf4d8 [0x24] ) => 0
+NtOpenKey( KeyHandle=0xbcf5c4 [0x7c], DesiredAccess=MAXIMUM_ALLOWED, ObjectAttributes="\REGISTRY\USER\S-1-5-21-720861507-2062261010-4051649343-1001" ) => 0
+NtOpenKey( KeyHandle=0xbcf5c8, DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"Software\Policies\Microsoft\Control Panel\Desktop" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtOpenKey( KeyHandle=0xbcf5c0 [0x80], DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"Control Panel\Desktop\LanguageConfiguration" ) => 0
+NtEnumerateValueKey( KeyHandle=0x80, Index=0, KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcf360, Length=0x200, ResultLength=0xbcf328 ) => 0x8000001a [259 'No more data is available.']
+NtClose( Handle=0x80 ) => 0
+NtClose( Handle=0x7c ) => 0
+NtOpenKey( KeyHandle=0xbcf540, DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\Software\Policies\Microsoft\MUI\Settings" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryInformationToken( TokenHandle=-6, TokenInformationClass=1 [TokenUser], TokenInformation=0xbcf468, Length=0x50, ReturnLength=0xbcf458 [0x24] ) => 0
+NtOpenKey( KeyHandle=0xbcf548 [0x7c], DesiredAccess=MAXIMUM_ALLOWED, ObjectAttributes="\REGISTRY\USER\S-1-5-21-720861507-2062261010-4051649343-1001" ) => 0
+NtOpenKey( KeyHandle=0xbcf4e8, DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"Software\Policies\Microsoft\Control Panel\Desktop" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtOpenKey( KeyHandle=0xbcf53c [0x80], DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"Control Panel\Desktop" ) => 0
+NtQueryValueKey( KeyHandle=0x80, ValueName="PreferredUILanguages", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xe135e8, Length=0xc, ResultLength=0xbcf504 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtClose( Handle=0x80 ) => 0
+NtClose( Handle=0x7c ) => 0
+NtOpenKey( KeyHandle=0xbcf540, DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\Software\Policies\Microsoft\MUI\Settings" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryInformationToken( TokenHandle=-6, TokenInformationClass=1 [TokenUser], TokenInformation=0xbcf468, Length=0x50, ReturnLength=0xbcf458 [0x24] ) => 0
+NtOpenKey( KeyHandle=0xbcf548 [0x7c], DesiredAccess=MAXIMUM_ALLOWED, ObjectAttributes="\REGISTRY\USER\S-1-5-21-720861507-2062261010-4051649343-1001" ) => 0
+NtOpenKey( KeyHandle=0xbcf53c [0x80], DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"Control Panel\Desktop\MuiCached" ) => 0
+NtQueryValueKey( KeyHandle=0x80, ValueName="MachinePreferredUILanguages", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xe135e8, Length=0xc, ResultLength=0xbcf504 ) => 0x80000005 [234 'More data is available.']
+NtQueryValueKey( KeyHandle=0x80, ValueName="MachinePreferredUILanguages", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xe141f8, Length=0x18, ResultLength=0xbcf504 [0x18] ) => 0
+NtClose( Handle=0x80 ) => 0
+NtClose( Handle=0x7c ) => 0
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf580 [0/0], IoControlCode=0x00500016, InputBuffer=0xbcf588, InputBufferLength=0x30, OutputBuffer=null, OutputBufferLength=0 ) => 0
+NtOpenKey( KeyHandle=0xbcf5b0, DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\Software\Policies\Microsoft\MUI\Settings" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryInformationToken( TokenHandle=-6, TokenInformationClass=1 [TokenUser], TokenInformation=0xbcf4d8, Length=0x50, ReturnLength=0xbcf4c8 [0x24] ) => 0
+NtOpenKey( KeyHandle=0xbcf5b8 [0x7c], DesiredAccess=MAXIMUM_ALLOWED, ObjectAttributes="\REGISTRY\USER\S-1-5-21-720861507-2062261010-4051649343-1001" ) => 0
+NtOpenKey( KeyHandle=0xbcf558, DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"Software\Policies\Microsoft\Control Panel\Desktop" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtOpenKey( KeyHandle=0xbcf5ac [0x80], DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"Control Panel\Desktop" ) => 0
+NtQueryValueKey( KeyHandle=0x80, ValueName="PreferredUILanguages", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xe135e8, Length=0xc, ResultLength=0xbcf574 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtClose( Handle=0x80 ) => 0
+NtClose( Handle=0x7c ) => 0
+NtOpenKey( KeyHandle=0xbcf620, DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\Software\Policies\Microsoft\MUI\Settings" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryInformationToken( TokenHandle=-6, TokenInformationClass=1 [TokenUser], TokenInformation=0xbcf548, Length=0x50, ReturnLength=0xbcf538 [0x24] ) => 0
+NtOpenKey( KeyHandle=0xbcf624 [0x7c], DesiredAccess=MAXIMUM_ALLOWED, ObjectAttributes="\REGISTRY\USER\S-1-5-21-720861507-2062261010-4051649343-1001" ) => 0
+NtOpenKey( KeyHandle=0xbcf628, DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"Software\Policies\Microsoft\Control Panel\Desktop" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtOpenKey( KeyHandle=0xbcf620 [0x80], DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"Control Panel\Desktop\LanguageConfiguration" ) => 0
+NtEnumerateValueKey( KeyHandle=0x80, Index=0, KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcf3c0, Length=0x200, ResultLength=0xbcf388 ) => 0x8000001a [259 'No more data is available.']
+NtClose( Handle=0x80 ) => 0
+NtClose( Handle=0x7c ) => 0
+NtQueryInformationToken( TokenHandle=-6, TokenInformationClass=1 [TokenUser], TokenInformation=0xbcf7bc, Length=0x50, ReturnLength=0xbcf7ac [0x24] ) => 0
+NtOpenKey( KeyHandle=0xbcf884 [0x7c], DesiredAccess=MAXIMUM_ALLOWED, ObjectAttributes="\REGISTRY\USER\S-1-5-21-720861507-2062261010-4051649343-1001" ) => 0
+NtOpenKeyEx( KeyHandle=0xbcf94c, DesiredAccess=KEY_READ, ObjectAttributes=0x7c:"Software\Policies\Microsoft\Windows\System", OpenOptions=0 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf953, MemoryInformationClass=0 [MemoryBasicInformation], MemoryInformation=0xbcf904, Length=0x1c, ReturnLength=0xbcf8e0 [0x1c] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0xad0000, MemoryInformationClass=0 [MemoryBasicInformation], MemoryInformation=0xbcf904, Length=0x1c, ReturnLength=0xbcf8e0 [0x1c] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0xad1000, MemoryInformationClass=0 [MemoryBasicInformation], MemoryInformation=0xbcf904, Length=0x1c, ReturnLength=0xbcf8e0 [0x1c] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0xad3000, MemoryInformationClass=0 [MemoryBasicInformation], MemoryInformation=0xbcf904, Length=0x1c, ReturnLength=0xbcf8e0 [0x1c] ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0xbd0000, MemoryInformationClass=0 [MemoryBasicInformation], MemoryInformation=0xbcf904, Length=0x1c, ReturnLength=0xbcf8e0 [0x1c] ) => 0
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf7f8 [0/0], IoControlCode=0x00500016, InputBuffer=0xbcf800, InputBufferLength=0x30, OutputBuffer=null, OutputBufferLength=0 ) => 0
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf780, IoControlCode=0x00500016, InputBuffer=0xbcf788, InputBufferLength=0x30, OutputBuffer=null, OutputBufferLength=0 ) => 0xc0000008 [6 'The handle is invalid.']
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf780, IoControlCode=0x00500016, InputBuffer=0xbcf788, InputBufferLength=0x30, OutputBuffer=null, OutputBufferLength=0 ) => 0xc0000008 [6 'The handle is invalid.']
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf780 [0/0], IoControlCode=0x00500016, InputBuffer=0xbcf788, InputBufferLength=0x30, OutputBuffer=null, OutputBufferLength=0 ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbcf480 [0x00e15000], ZeroBits=0, pSize=0xbcf4b8 [0x1000], flAllocationType=0x1000, flProtect=4 ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbcf480 [0x00e16000], ZeroBits=0, pSize=0xbcf4b8 [0x1000], flAllocationType=0x1000, flProtect=4 ) => 0
+NtOpenKey( KeyHandle=0xbce7e8 [0x80], DesiredAccess=MAXIMUM_ALLOWED, ObjectAttributes="\REGISTRY\MACHINE" ) => 0
+NtOpenKeyEx( KeyHandle=0xbce8b0 [0x84], DesiredAccess=MAXIMUM_ALLOWED, ObjectAttributes=0x80:"Software\Microsoft\Command Processor", OpenOptions=0 ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="DisableUNCCheck", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryValueKey( KeyHandle=0x84, ValueName="EnableExtensions", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 [0x10] ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="DelayedExpansion", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryValueKey( KeyHandle=0x84, ValueName="DefaultColor", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 [0x10] ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="CompletionChar", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 [0x10] ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="PathCompletionChar", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 [0x10] ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="AutoRun", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtClose( Handle=0x84 ) => 0
+NtOpenKeyEx( KeyHandle=0xbce8b0 [0x84], DesiredAccess=MAXIMUM_ALLOWED, ObjectAttributes=0x7c:"Software\Microsoft\Command Processor", OpenOptions=0 ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="DisableUNCCheck", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryValueKey( KeyHandle=0x84, ValueName="EnableExtensions", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 [0x10] ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="DelayedExpansion", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryValueKey( KeyHandle=0x84, ValueName="DefaultColor", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 [0x10] ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="CompletionChar", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 [0x10] ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="PathCompletionChar", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 [0x10] ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="AutoRun", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbce778, Length=0x90, ResultLength=0xbce754 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtClose( Handle=0x84 ) => 0
+NtQueryAttributesFile( ObjectAttributes="\??\C:\Users\chanw\Desktop\work\NtTrace", Attributes=0xbcf62c [DIRECTORY] ) => 0
+NtOpenFile( FileHandle=0xbcf0f0 [0x84], DesiredAccess=SYNCHRONIZE|0x1, ObjectAttributes="\??\C:\", IoStatusBlock=0xbcf120 [0/1], ShareAccess=7, OpenOptions=0x4021 ) => 0
+NtQueryDirectoryFile( FileHandle=0x84, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf120 [0/0x68], FileInformation=0xbcf140, Length=0x268, FileInformationClass=3 [FileBothDirectoryInformation], ReturnSingleEntry=true, FileName="Users", RestartScan=false ) => 0
+NtClose( Handle=0x84 ) => 0
+NtOpenFile( FileHandle=0xbcf0f0 [0x84], DesiredAccess=SYNCHRONIZE|0x1, ObjectAttributes="\??\C:\Users\", IoStatusBlock=0xbcf120 [0/1], ShareAccess=7, OpenOptions=0x4021 ) => 0
+NtQueryDirectoryFile( FileHandle=0x84, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf120 [0/0x68], FileInformation=0xbcf140, Length=0x268, FileInformationClass=3 [FileBothDirectoryInformation], ReturnSingleEntry=true, FileName="chanw", RestartScan=false ) => 0
+NtClose( Handle=0x84 ) => 0
+NtOpenFile( FileHandle=0xbcf0f0 [0x84], DesiredAccess=SYNCHRONIZE|0x1, ObjectAttributes="\??\C:\Users\chanw\", IoStatusBlock=0xbcf120 [0/1], ShareAccess=7, OpenOptions=0x4021 ) => 0
+NtQueryDirectoryFile( FileHandle=0x84, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf120 [0/0x6c], FileInformation=0xbcf140, Length=0x268, FileInformationClass=3 [FileBothDirectoryInformation], ReturnSingleEntry=true, FileName="Desktop", RestartScan=false ) => 0
+NtClose( Handle=0x84 ) => 0
+NtOpenFile( FileHandle=0xbcf0f0 [0x84], DesiredAccess=SYNCHRONIZE|0x1, ObjectAttributes="\??\C:\Users\chanw\Desktop\", IoStatusBlock=0xbcf120 [0/1], ShareAccess=7, OpenOptions=0x4021 ) => 0
+NtQueryDirectoryFile( FileHandle=0x84, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf120 [0/0x66], FileInformation=0xbcf140, Length=0x268, FileInformationClass=3 [FileBothDirectoryInformation], ReturnSingleEntry=true, FileName="work", RestartScan=false ) => 0
+NtClose( Handle=0x84 ) => 0
+NtOpenFile( FileHandle=0xbcf0f0 [0x84], DesiredAccess=SYNCHRONIZE|0x1, ObjectAttributes="\??\C:\Users\chanw\Desktop\work\", IoStatusBlock=0xbcf120 [0/1], ShareAccess=7, OpenOptions=0x4021 ) => 0
+NtQueryDirectoryFile( FileHandle=0x84, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf120 [0/0x6c], FileInformation=0xbcf140, Length=0x268, FileInformationClass=3 [FileBothDirectoryInformation], ReturnSingleEntry=true, FileName="NtTrace", RestartScan=false ) => 0
+NtClose( Handle=0x84 ) => 0
+NtQueryAttributesFile( ObjectAttributes="\??\C:\Users\chanw\Desktop\work\NtTrace", Attributes=0xbcf62c [DIRECTORY] ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbcf408 [0x00e17000], ZeroBits=0, pSize=0xbcf440 [0x5000], flAllocationType=0x1000, flProtect=4 ) => 0
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf790 [0/0], IoControlCode=0x00500016, InputBuffer=0xbcf798, InputBufferLength=0x30, OutputBuffer=null, OutputBufferLength=0 ) => 0
+NtQueryInformationToken( TokenHandle=-4, TokenInformationClass=0xa [TokenStatistics], TokenInformation=0xbcf758, Length=0x38, ReturnLength=0xbcf754 [0x38] ) => 0
+NtOpenKey( KeyHandle=0xbcf2d8 [0x84], DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\Nls\CustomLocale" ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="en-US", KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcf548, Length=0x214, ResultLength=0xbcf2b4 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtClose( Handle=0x84 ) => 0
+NtOpenKey( KeyHandle=0xbcf2d8 [0x84], DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\Nls\ExtendedLocale" ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="en-US", KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcf548, Length=0x214, ResultLength=0xbcf2b4 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtClose( Handle=0x84 ) => 0
+NtOpenKey( KeyHandle=0xbcee34 [0x84], DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\Nls\Locale" ) => 0
+NtOpenKey( KeyHandle=0xbcee34 [0x88], DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\Nls\Locale\Alternate Sorts" ) => 0
+NtOpenKey( KeyHandle=0xbcee34 [0x8c], DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\Nls\Language Groups" ) => 0
+NtQueryValueKey( KeyHandle=0x84, ValueName="00000409", KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcf120, Length=0x214, ResultLength=0xbcee24 [0x2c] ) => 0
+NtQueryValueKey( KeyHandle=0x8c, ValueName="1", KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcf340, Length=0x214, ResultLength=0xbcee24 [0x1c] ) => 0
+NtAllocateVirtualMemory( ProcessHandle=-1, lpAddress=0xbcef10 [0x05263000], ZeroBits=0, pSize=0xbcef48 [0x1000], flAllocationType=0x1000, flProtect=4 ) => 0
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf720 [0/0x3e], IoControlCode=0x00500016, InputBuffer=0xbcf728, InputBufferLength=0x40, OutputBuffer=null, OutputBufferLength=0 ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x2c, IoStatusBlock=0xbcf894 [0/8], FsInformation=0xbcf89c, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+NtOpenSection( SectionHandle=0xbcf1a8, DesiredAccess=0xf, ObjectAttributes=0x38:"winbrand.dll" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryAttributesFile( ObjectAttributes="\??\C:\Windows\SYSTEM32\winbrand.dll", Attributes=0xbcf028 [ARCHIVE] ) => 0
+NtOpenFile( FileHandle=0xbcf05c [0x90], DesiredAccess=SYNCHRONIZE|0x21, ObjectAttributes="\??\C:\Windows\SYSTEM32\winbrand.dll", IoStatusBlock=0xbcf028 [0/1], ShareAccess=5, OpenOptions=0x60 ) => 0
+NtCreateSection( SectionHandle=0xbcf058 [0x94], DesiredAccess=0xf, ObjectAttributes=null, SectionSize=null, Protect=0x10, Attributes=0x01000000, FileHandle=0x90 ) => 0
+Loaded DLL at 6B960000 C:\Windows\SysWOW64\winbrand.dll
+NtMapViewOfSection( SectionHandle=0x94, ProcessHandle=-1, BaseAddress=0xe14a78 [0x6b960000], ZeroBits=0, CommitSize=0, SectionOffset=null, ViewSize=0xbcefdc [0xb000], InheritDisposition=1 [ViewShare], AllocationType=0x00800000, Protect=4 ) => 0
+NtQueryPerformanceCounter( Counter=0xbcef88 [1.45824e+009], Freq=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcefc4 [0x6b968000], Size=0xbcefc8 [0x1000], NewProtect=2, OldProtect=0xbcefc0 [4] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcefc4 [0x6b967000], Size=0xbcefc8 [0x1000], NewProtect=4, OldProtect=0xbcefc0 [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcefc4 [0x6b967000], Size=0xbcefc8 [0x1000], NewProtect=2, OldProtect=0xbcefc0 [4] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcef90 [0x7702c000], Size=0xbcef94 [0x3000], NewProtect=4, OldProtect=0xbcef98 [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcef90 [0x7702c000], Size=0xbcef94 [0x3000], NewProtect=2, OldProtect=0xbcef98 [4] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcefa8 [0x6b967000], Size=0xbcefac [0x1000], NewProtect=4, OldProtect=0xe149f4 [2] ) => 0
+NtClose( Handle=0x94 ) => 0
+NtClose( Handle=0x90 ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xe149e0 [0x6b967000], Size=0xe149e4 [0x1000], NewProtect=2, OldProtect=0xbcf0ec [4] ) => 0
+NtApphelpCacheControl( ServiceClass=6, ServiceData="" ) => 0
+NtTraceControl( CtrlCode=0xf, InputBuffer=0xbceef8, InputBufferLength=0xa0, OutputBuffer=0xbceef8, OutputBufferLength=0xa0, ReturnLength=0xbceeec [0xa0] ) => 0
+NtSetEvent( EventHandle=0x3c, PrevState=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf548 [0x00f55000], Size=0xbcf54c [0x1000], NewProtect=4, OldProtect=0xbcf544 [2] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0xbcf548 [0x00f55000], Size=0xbcf54c [0x1000], NewProtect=2, OldProtect=0xbcf544 [4] ) => 0
+NtQueryAttributesFile( ObjectAttributes="\??\C:\Windows\SYSTEM32\Branding\Basebrd\Basebrd.dll", Attributes=0xbcc240 ) => 0xc000003a [3 'The system cannot find the path specified.']
+NtOpenKey( KeyHandle=0xbcc16c [0x94], DesiredAccess=0x1, ObjectAttributes="\Registry\MACHINE\System\CurrentControlSet\Control\Session Manager" ) => 0
+NtQueryValueKey( KeyHandle=0x94, ValueName="SafeDllSearchMode", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbcc170, Length=0x10, ResultLength=0xbcc168 ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryAttributesFile( ObjectAttributes="\??\C:\Windows\Branding\Basebrd\Basebrd.dll", Attributes=0xbcbde0 [ARCHIVE] ) => 0
+NtCreateFile( FileHandle=0xbcbf9c [0x98], DesiredAccess=SYNCHRONIZE|GENERIC_READ|0x80, ObjectAttributes="\??\C:\Windows\Branding\Basebrd\Basebrd.dll", IoStatusBlock=0xbcbfac [0/1], AllocationSize=null, FileAttributes=0, ShareAccess=5, CreateDisposition=1, CreateOptions=0x00020060, EaBuffer=null, EaLength=0 ) => 0
+NtCreateSection( SectionHandle=0xbcc014 [0x9c], DesiredAccess=DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER|0x5, ObjectAttributes=null, SectionSize=null, Protect=2, Attributes=0x08000000, FileHandle=0x98 ) => 0
+NtMapViewOfSection( SectionHandle=0x9c, ProcessHandle=-1, BaseAddress=0xbcc0d0 [0x05120000], ZeroBits=0, CommitSize=0, SectionOffset=null, ViewSize=0xbcc0c8 [0x000f6000], InheritDisposition=1 [ViewShare], AllocationType=0, Protect=2 ) => 0
+NtClose( Handle=0x98 ) => 0
+NtClose( Handle=0x9c ) => 0
+NtUnmapViewOfSection( ProcessHandle=-1, BaseAddress=0x5120000 ) => 0
+NtQueryAttributesFile( ObjectAttributes="\??\C:\Windows\SYSTEM32\Branding\Basebrd\Basebrd.dll", Attributes=0xbcc690 ) => 0xc000003a [3 'The system cannot find the path specified.']
+NtQueryAttributesFile( ObjectAttributes="\??\C:\Windows\Branding\Basebrd\Basebrd.dll", Attributes=0xbcc230 [ARCHIVE] ) => 0
+NtCreateFile( FileHandle=0xbcc3ec [0x9c], DesiredAccess=SYNCHRONIZE|GENERIC_READ|0x80, ObjectAttributes="\??\C:\Windows\Branding\Basebrd\Basebrd.dll", IoStatusBlock=0xbcc3fc [0/1], AllocationSize=null, FileAttributes=0, ShareAccess=5, CreateDisposition=1, CreateOptions=0x00020060, EaBuffer=null, EaLength=0 ) => 0
+NtCreateSection( SectionHandle=0xbcc464 [0x98], DesiredAccess=DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER|0x5, ObjectAttributes=null, SectionSize=null, Protect=2, Attributes=0x08000000, FileHandle=0x9c ) => 0
+NtMapViewOfSection( SectionHandle=0x98, ProcessHandle=-1, BaseAddress=0xbcc520 [0x05120000], ZeroBits=0, CommitSize=0, SectionOffset=null, ViewSize=0xbcc518 [0x000f6000], InheritDisposition=1 [ViewShare], AllocationType=0, Protect=2 ) => 0
+NtClose( Handle=0x9c ) => 0
+NtClose( Handle=0x98 ) => 0
+NtMapCMFModule( What=0x10, Index=-1, CacheIndexOut=0xbcb928, CacheFlagsOut=0xbcb934, ViewSizeOut=0xbcb930, BaseAddress=0xbcb900 ) => 0xc000000d [87 'The parameter is incorrect.']
+NtOpenKey( KeyHandle=0xbcbb64 [0x98], DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\CMF\Config" ) => 0
+NtQueryValueKey( KeyHandle=0x98, ValueName="SYSTEM", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xe149a8, Length=0x10, ResultLength=0xbcbb2c [0x10] ) => 0
+NtClose( Handle=0x98 ) => 0
+NtCreateFile( FileHandle=0xbcbc2c [0x98], DesiredAccess=SYNCHRONIZE|GENERIC_READ|0x80, ObjectAttributes="\??\C:\Windows\Branding\Basebrd\en-US\Basebrd.dll.mui", IoStatusBlock=0xbcbc0c [0/1], AllocationSize=null, FileAttributes=0, ShareAccess=5, CreateDisposition=1, CreateOptions=0, EaBuffer=null, EaLength=0 ) => 0
+NtCreateSection( SectionHandle=0xbcbc30 [0x9c], DesiredAccess=DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER|0x5, ObjectAttributes=null, SectionSize=null, Protect=2, Attributes=0x08000000, FileHandle=0x98 ) => 0
+NtMapViewOfSection( SectionHandle=0x9c, ProcessHandle=-1, BaseAddress=0xbcbc34 [0x00a50000], ZeroBits=0, CommitSize=0, SectionOffset=0xbcbc48 [0], ViewSize=0xbcbc38 [0x1000], InheritDisposition=1 [ViewShare], AllocationType=0, Protect=2 ) => 0
+NtClose( Handle=0x9c ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0xa50000, MemoryInformationClass=3, MemoryInformation=0xbcbb94, Length=0x14, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0xa50000, MemoryInformationClass=3, MemoryInformation=0xbcc524, Length=0x14, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x5120000, MemoryInformationClass=2, MemoryInformation=0xbcc1d0, Length=0x208, ReturnLength=null ) => 0
+NtOpenKey( KeyHandle=0xbcbfcc [0x9c], DesiredAccess=0x1, ObjectAttributes="\Registry\Machine\Software\Microsoft\Windows\Windows Error Reporting\WMR" ) => 0
+NtQueryValueKey( KeyHandle=0x9c, ValueName="Disable", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbcbe4c, Length=0x13, ResultLength=0xbcbe48 [0x10] ) => 0
+NtOpenProcessToken( ProcessHandle=-1, DesiredAccess=0x8, TokenHandle=0xbcbde8 [0xa0] ) => 0
+NtQueryInformationToken( TokenHandle=0xa0, TokenInformationClass=1 [TokenUser], TokenInformation=null, Length=0, ReturnLength=0xbcbde4 ) => 0xc0000023 [122 'The data area passed to a system call is too small.']
+NtQueryInformationToken( TokenHandle=0xa0, TokenInformationClass=1 [TokenUser], TokenInformation=0xe149a8, Length=0x24, ReturnLength=0xbcbde4 [0x24] ) => 0
+NtClose( Handle=0xa0 ) => 0
+NtOpenKey( KeyHandle=0xbcbfd0, DesiredAccess=0x1, ObjectAttributes="\Registry\User\S-1-5-21-720861507-2062261010-4051649343-1001\Software\Microsoft\Windows\Windows Error Reporting\WMR" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtClose( Handle=0x9c ) => 0
+NtUnmapViewOfSection( ProcessHandle=-1, BaseAddress=0xa50000 ) => 0
+NtClose( Handle=0x98 ) => 0
+NtUnmapViewOfSection( ProcessHandle=-1, BaseAddress=0x5120000 ) => 0
+NtQueryValueKey( KeyHandle=0x70, ValueName="000602xx", KeyValueInformationClass=1 [KeyValueFullInformation], KeyValueInformation=0xbcc520, Length=0x214, ResultLength=0xbcc4e4 [0x42] ) => 0
+NtCreateFile( FileHandle=0xbcc854 [0x98], DesiredAccess=SYNCHRONIZE|GENERIC_READ|0x80, ObjectAttributes="\??\C:\Windows\Globalization\Sorting\sortdefault.nls", IoStatusBlock=0xbcc864 [0/1], AllocationSize=null, FileAttributes=0x80, ShareAccess=1, CreateDisposition=1, CreateOptions=0x00020060, EaBuffer=null, EaLength=0 ) => 0
+NtCreateSection( SectionHandle=0xbcc8a4 [0x9c], DesiredAccess=DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER|0x5, ObjectAttributes=null, SectionSize=null, Protect=2, Attributes=0x08000000, FileHandle=0x98 ) => 0
+NtMapViewOfSection( SectionHandle=0x9c, ProcessHandle=-1, BaseAddress=0xbcc900 [0x05270000], ZeroBits=0, CommitSize=0, SectionOffset=0xbcc8f4 [0], ViewSize=0xbcc8fc [0x00337000], InheritDisposition=1 [ViewShare], AllocationType=0, Protect=2 ) => 0
+NtClose( Handle=0x9c ) => 0
+NtClose( Handle=0x98 ) => 0
+NtOpenKey( KeyHandle=0xbcca34 [0x98], DesiredAccess=KEY_READ, ObjectAttributes="\Registry\Machine\System\CurrentControlSet\Control\Nls\Sorting\Ids" ) => 0
+NtQueryValueKey( KeyHandle=0x98, ValueName="en-US", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbcca80, Length=0x5a, ResultLength=0xbcca6c ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryValueKey( KeyHandle=0x98, ValueName="en", KeyValueInformationClass=2 [KeyValuePartialInformation], KeyValueInformation=0xbcca80, Length=0x5a, ResultLength=0xbcca6c ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryVolumeInformationFile( FileHandle=0x2c, IoStatusBlock=0xbcf808 [0/8], FsInformation=0xbcf810, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+NtCreateFile( FileHandle=0xbcece4 [0x9c], DesiredAccess=SYNCHRONIZE|GENERIC_READ|0x80, ObjectAttributes="\??\C:\Windows\SysWOW64\en-US\cmd.exe.mui", IoStatusBlock=0xbcecc4 [0/1], AllocationSize=null, FileAttributes=0, ShareAccess=5, CreateDisposition=1, CreateOptions=0, EaBuffer=null, EaLength=0 ) => 0
+NtCreateSection( SectionHandle=0xbcece8 [0xa0], DesiredAccess=DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER|0x5, ObjectAttributes=null, SectionSize=null, Protect=2, Attributes=0x08000000, FileHandle=0x9c ) => 0
+NtMapViewOfSection( SectionHandle=0xa0, ProcessHandle=-1, BaseAddress=0xbcecec [0x05030000], ZeroBits=0, CommitSize=0, SectionOffset=0xbced00 [0], ViewSize=0xbcecf0 [0x00021000], InheritDisposition=1 [ViewShare], AllocationType=0, Protect=2 ) => 0
+NtClose( Handle=0xa0 ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x5030000, MemoryInformationClass=3, MemoryInformation=0xbcec4c, Length=0x14, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x5030000, MemoryInformationClass=3, MemoryInformation=0xbcf3f4, Length=0x14, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x5030000, MemoryInformationClass=3, MemoryInformation=0xbcf5d4, Length=0x14, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x5030000, MemoryInformationClass=3, MemoryInformation=0xbcf3f4, Length=0x14, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x5030000, MemoryInformationClass=3, MemoryInformation=0xbcf5d4, Length=0x14, ReturnLength=null ) => 0
+Microsoft Windows [Version 10.0.10586]NtWriteFile( FileHandle=0x2c, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf7d4 [0/0x26], Buffer=0xf4b960, Length=0x26, ByteOffset=null, Key=null ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x2c, IoStatusBlock=0xbcf86c [0/8], FsInformation=0xbcf874, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+
+NtWriteFile( FileHandle=0x2c, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf838 [0/2], Buffer=0xf4b960, Length=2, ByteOffset=null, Key=null ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x2c, IoStatusBlock=0xbcf874 [0/8], FsInformation=0xbcf87c, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+(c) 2015 Microsoft Corporation. All rights reserved.NtWriteFile( FileHandle=0x2c, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf840 [0/0x34], Buffer=0xf4b960, Length=0x34, ByteOffset=null, Key=null ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x2c, IoStatusBlock=0xbcf870 [0/8], FsInformation=0xbcf878, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+
+NtWriteFile( FileHandle=0x2c, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf83c [0/2], Buffer=0xf4b960, Length=2, ByteOffset=null, Key=null ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x28, IoStatusBlock=0xbcf904 [0/8], FsInformation=0xbcf90c, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf7e0 [0/0], IoControlCode=0x00500016, InputBuffer=0xbcf7e8, InputBufferLength=0x30, OutputBuffer=null, OutputBufferLength=0 ) => 0
+NtOpenThreadToken( ThreadHandle=-2, DesiredAccess=0x8, OpenAsSelf=false, TokenHandle=0xbcf6e0 ) => 0xc000007c [1008 'An attempt was made to reference a token that does not exist.']
+NtOpenProcessToken( ProcessHandle=-1, DesiredAccess=0x8, TokenHandle=0xbcf6e0 [0xa4] ) => 0
+NtQueryInformationToken( TokenHandle=0xa4, TokenInformationClass=0x12 [TokenElevationType], TokenInformation=0xbcf6bc, Length=4, ReturnLength=0xbcf6b8 [4] ) => 0
+NtQueryInformationToken( TokenHandle=0xa4, TokenInformationClass=0x1a [TokenUIAccess], TokenInformation=0xbcf6bc, Length=4, ReturnLength=0xbcf6c0 [4] ) => 0
+NtClose( Handle=0xa4 ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x2c, IoStatusBlock=0xbcf56c [0/8], FsInformation=0xbcf574, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+
+NtWriteFile( FileHandle=0x2c, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf538 [0/2], Buffer=0xf4b960, Length=2, ByteOffset=null, Key=null ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x2c, IoStatusBlock=0xbcf570 [0/8], FsInformation=0xbcf578, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+C:\Users\chanw\Desktop\work\NtTrace>NtWriteFile( FileHandle=0x2c, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf53c [0/0x24], Buffer=0xf4b960, Length=0x24, ByteOffset=null, Key=null ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x28, IoStatusBlock=0xbcf848 [0/8], FsInformation=0xbcf850, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x28, IoStatusBlock=0xbcf838 [0/8], FsInformation=0xbcf840, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf718 [0/0], IoControlCode=0x00500016, InputBuffer=0xbcf720, InputBufferLength=0x30, OutputBuffer=null, OutputBufferLength=0 ) => 0
+NtQueryVolumeInformationFile( FileHandle=0x28, IoStatusBlock=0xbcf838 [0/8], FsInformation=0xbcf840, Length=8, FsInformationClass=4 [FsDeviceInformation] ) => 0
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf718 [0/0], IoControlCode=0x00500016, InputBuffer=0xbcf720, InputBufferLength=0x30, OutputBuffer=null, OutputBufferLength=0 ) => 0
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0xbcf670, IoControlCode=0x00500016, InputBuffer=0xbcf678, InputBufferLength=0x30, OutputBuffer=null, OutputBufferLength=0 ) => 0xc0000008 [6 'The handle is invalid.']
+Created thread: 3508 at 7498A8D0
+NtDeviceIoControlFile( FileHandle=0x44, Event=0, ApcRoutine=null, ApcContext=null, IoStatusBlock=0x521f650, IoControlCode=0x00500016, InputBuffer=0x521f658, InputBufferLength=0x30, OutputBuffer=null, OutputBufferLength=0 ) => 0xc00000bb [50 'The request is not supported.']
+NtSetEvent( EventHandle=0x3c, PrevState=null ) => 0
+NtTestAlert( ) => 0
+NtSetInformationThread( ThreadHandle=-2, ThreadInformationClass=3 [ThreadBasePriority], ThreadInformation=0x521fd70, Length=4 ) => 0
+NtTerminateProcess( ProcessHandle=0, ExitStatus=0xc000013a ) => 0
+NtClose( Handle=0x90 ) => 0
+Thread 3920 exit code: 3221225786
+NtClose( Handle=0x6c ) => 0
+Process 3968 exit code: 3221225786

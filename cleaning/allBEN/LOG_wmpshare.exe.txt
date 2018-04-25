@@ -1,0 +1,4 @@
+Process 2584 starting at 00991A80
+C:\Users\chanw\Desktop\WINBEN2\wmpshare.exe
+Loaded DLL at 77B50000 null
+Detached

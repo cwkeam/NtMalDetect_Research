@@ -1,0 +1,24 @@
+Process 6304 starting at 004022DE
+C:\Users\chanw\Desktop\WINMAL3\Fallen.dat
+Loaded DLL at 77B50000 null
+Unload of DLL at 00410000
+Unload of DLL at 74880000
+Unload of DLL at 00410000
+Unload of DLL at 00510000
+NtQueryPerformanceCounter( Counter=0x19fc98 [1.35743e+010], Freq=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0x19fcc4 [0x77c5e000], Size=0x19fcc8 [0x1000], NewProtect=4, OldProtect=0x19fccc [8] ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0x19fcc4 [0x77c5e000], Size=0x19fcc8 [0x1000], NewProtect=8, OldProtect=0x19fccc [4] ) => 0
+NtQuerySystemInformation( SystemInformationClass=0 [SystemBasicInformation], SystemInformation=0x19fc78, Length=0x2c, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x77b50000, MemoryInformationClass=6, MemoryInformation=0x19fa10, Length=0xc, ReturnLength=null ) => 0
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=null, MemoryInformationClass=4, MemoryInformation=0x19fa44, Length=0x28, ReturnLength=null ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0x19fa50 [0x77c5c000], Size=0x19fa54 [0x3000], NewProtect=2, OldProtect=0x19fa58 [4] ) => 0
+NtOpenKey( KeyHandle=0x19f80c [0x28], DesiredAccess=0x9, ObjectAttributes="\Registry\Machine\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" ) => 0
+NtOpenKey( KeyHandle=0x19f8a8, DesiredAccess=0x9, ObjectAttributes=0x28:"Fallen.dat" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtOpenKey( KeyHandle=0x19f828, DesiredAccess=0x1, ObjectAttributes="\Registry\Machine\SYSTEM\CurrentControlSet\Control\Session Manager\Segment Heap" ) => 0xc0000034 [2 'The system cannot find the file specified.']
+NtQueryVirtualMemory( ProcessHandle=-1, BaseAddress=0x4000e0, MemoryInformationClass=0 [MemoryBasicInformation], MemoryInformation=0x19fa9c, Length=0x1c, ReturnLength=0x19fb38 [0x1c] ) => 0
+NtFlushInstructionCache( Process=-1, BaseAddress=0x400000, Size=0x3000 ) => 0
+NtProtectVirtualMemory( ProcessHandle=-1, BaseAddress=0x19f9e0 [0x00400200], Size=0x19f9ec [0x3000], NewProtect=4, OldProtect=0x19f9dc ) => 0xc0000018 [487 'Attempt to access invalid address.']
+NtTestAlert( ) => 0
+NtTraceEvent( TraceHandle=0x77b562ec, Flags=0x700, FieldSize=0x78, Fields=0x19fbd0 ) => 0
+NtRaiseHardError( ErrorStatus=0xc0000145, NumberOfParameters=1, ParameterMask=0, Parameters=0x19fca4 [0xc0000018], ResponseOptions=1 [OptionOk], Response=0x19fca0 [6] ) => 0
+Process 6304 exit code: 3221225496
